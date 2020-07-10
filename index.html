@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet" href="watch.css" />
+  <title>Document</title>
+</head>
+
+<div class="container">
+  <div>
+    <h1 class="stop" style="color: white;">Stop Watch</h1>
+    <hr width="200px">
+  </div>
+  <div>
+    <h1 id="min" class="time">0</h1>
+    <h1 class="time">:</h1>
+    <h1 class="time" id="sec">0</h1>
+    <h1 class="time">:</h1>
+    <h1 class="time" id="msec">0</h1>
+  </div>
+
+  <div>
+    <button onclick="start();myFunction()" id="startButton">Start</button>
+    <button onclick="pause()">Pause</button>
+    <button onclick="reset()">Reset</button>
+  </div>
+</div>
+<script src="watch1.js"></script>
+
+</html>

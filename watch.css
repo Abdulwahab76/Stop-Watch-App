@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "digital";
+    src: url("digital-7 (mono).ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: #ffffff;
+    text-align: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73f385ae-e909-46b9-9faf-57dc2b09b346/dddraqt-f69a79cb-7e12-4a0c-b581-2dba06365070.png/v1/fill/w_1280,h_720,q_80,strp/black_material_ui_background_by_ministerkraft_dddraqt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC83M2YzODVhZS1lOTA5LTQ2YjktOWZhZi01N2RjMmIwOWIzNDZcL2RkZHJhcXQtZjY5YTc5Y2ItN2UxMi00YTBjLWI1ODEtMmRiYTA2MzY1MDcwLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._pX4uBWvkp78loeoX-a0t2Cxlr6w1pN1U_77gvmoBMw");
+    /* background-repeat: repeat; */
+  }
+    .container{
+      justify-content: center;
+      margin-top: 130px;
+      width: 100%;
+
+  }
+  .time {
+    display: inline-block;
+    width: 45px;
+   
+    font-family:"digital" ;
+    height: 60px;
+    font-size: 62px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+  }
+
+  
+  button {
+    display: inline-block;
+    width: 75px;
+    font-family: "digital";
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .stop{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 42px;
+  }
